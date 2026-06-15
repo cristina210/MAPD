@@ -1,0 +1,206 @@
+
+======================================================================
+ITERATION 95
+======================================================================
+initial_positions: [4, 7, 0, 2]
+initial _progress: {0: [], 1: [], 2: [], 3: []}
+missions: [(0, [4, 8, 6, 1]), (1, [7, 6, 3, 11]), (2, [0, 11, 4]), (3, [2])]
+
+  -- PP --
+  success: True
+    AMR 0 progress: [8, 4, 5, 6, 2, 1]
+    AMR 1 progress: [6, 2, 3, 7, 11]
+    AMR 2 progress: [1, 5, 6, 10, 10, 11, 7, 6, 5, 4]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 21
+
+  -- CBS --
+  success: True
+    AMR 0 progress: [8, 4, 5, 6, 2, 1]
+    AMR 1 progress: [6, 2, 3, 3, 7, 11]
+    AMR 2 progress: [1, 5, 6, 7, 11, 10, 6, 5, 4]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 21
+
+  -- BCBS --
+  success: True
+    AMR 0 progress: [8, 4, 5, 6, 2, 1]
+    AMR 1 progress: [6, 2, 3, 3, 7, 11]
+    AMR 2 progress: [1, 5, 6, 7, 11, 10, 6, 5, 4]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 21
+
+
+======================================================================
+ITERATION 96
+======================================================================
+initial_positions: [11, 5, 10, 6]
+initial _progress: {0: [1, 0, 5, 13, 10, 2], 1: [], 2: [], 3: []}
+missions: [(0, [2, 11, 8]), (1, [5]), (2, [10, 15, 15, 14]), (3, [6, 11, 10, 0])]
+
+  -- PP --
+  success: True
+    AMR 0 progress: [1, 0, 5, 13, 10, 2, 3, 7, 11, 10, 9, 8]
+    AMR 2 progress: [11, 15, 14]
+    AMR 3 progress: [7, 11, 10, 6, 2, 1, 0]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 22
+
+  -- CBS --
+  success: True
+    AMR 0 progress: [1, 0, 5, 13, 10, 2, 3, 7, 11, 10, 9, 8]
+    AMR 2 progress: [11, 15, 14]
+    AMR 3 progress: [7, 11, 10, 6, 2, 1, 0]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 22
+
+  -- BCBS --
+  success: True
+    AMR 0 progress: [1, 0, 5, 13, 10, 2, 3, 7, 11, 10, 9, 8]
+    AMR 2 progress: [11, 15, 14]
+    AMR 3 progress: [7, 11, 10, 6, 2, 1, 0]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 22
+
+
+======================================================================
+ITERATION 97
+======================================================================
+initial_positions: [6, 15, 12, 5]
+initial _progress: {0: [], 1: [], 2: [], 3: []}
+missions: [(0, [6, 1, 0, 8]), (1, [15, 14]), (2, [12, 10]), (3, [5, 5, 8])]
+
+  -- PP --
+  success: True
+    AMR 0 progress: [2, 1, 0, 4, 8]
+    AMR 1 progress: [14]
+    AMR 2 progress: [8, 9, 10]
+    AMR 3 progress: [4, 8]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 11
+
+  -- CBS --
+  success: True
+    AMR 0 progress: [2, 1, 0, 4, 8]
+    AMR 1 progress: [14]
+    AMR 2 progress: [8, 9, 10]
+    AMR 3 progress: [4, 8]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 11
+
+  -- BCBS --
+  success: True
+    AMR 0 progress: [2, 1, 0, 4, 8]
+    AMR 1 progress: [14]
+    AMR 2 progress: [8, 9, 10]
+    AMR 3 progress: [4, 8]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 11
+
+
+======================================================================
+ITERATION 98
+======================================================================
+initial_positions: [11, 9, 13, 0]
+initial _progress: {0: [9, 2, 15, 6, 12, 1, 11, 0], 1: [], 2: [], 3: [12]}
+missions: [(0, [0, 1, 15]), (1, [9]), (2, [13, 12]), (3, [12])]
+
+  -- PP --
+  success: True
+    AMR 0 progress: [9, 2, 15, 6, 12, 1, 11, 0, 1, 2, 3, 7, 11, 15]
+    AMR 3 progress: [12]
+    AMR 2 progress: [13, 12]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 16
+
+  -- CBS --
+  success: True
+    AMR 0 progress: [9, 2, 15, 6, 12, 1, 11, 0, 1, 2, 3, 7, 11, 15]
+    AMR 3 progress: [12]
+    AMR 2 progress: [13, 12]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 16
+
+  -- BCBS --
+  success: True
+    AMR 0 progress: [9, 2, 15, 6, 12, 1, 11, 0, 1, 2, 3, 7, 11, 15]
+    AMR 3 progress: [12]
+    AMR 2 progress: [13, 12]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 16
+
+
+======================================================================
+ITERATION 99
+======================================================================
+initial_positions: [12, 6, 3, 9]
+initial _progress: {0: [], 1: [4, 2, 8, 12], 2: [], 3: []}
+missions: [(0, [12, 2, 15, 6]), (1, [12, 6, 11, 12]), (2, [3, 4]), (3, [9, 10])]
+
+  -- PP --
+  success: True
+    AMR 1 progress: [4, 2, 8, 12, 8, 4, 5, 6, 7, 6, 10, 11, 10, 9, 8, 12]
+    AMR 0 progress: [8, 4, 0, 1, 2, 3, 7, 11, 15, 11, 7, 6]
+    AMR 2 progress: [2, 1, 5, 4]
+    AMR 3 progress: [10]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 33
+
+  -- CBS --
+  success: True
+    AMR 1 progress: [4, 2, 8, 12, 8, 4, 5, 6, 7, 11, 15, 14, 13, 12]
+    AMR 0 progress: [8, 4, 5, 1, 2, 3, 7, 11, 15, 14, 10, 6]
+    AMR 2 progress: [2, 1, 0, 4]
+    AMR 3 progress: [10]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 31
+
+  -- BCBS --
+  success: True
+    AMR 1 progress: [4, 2, 8, 12, 8, 4, 5, 6, 7, 11, 15, 14, 13, 12]
+    AMR 0 progress: [8, 4, 5, 1, 2, 3, 7, 11, 15, 14, 10, 6]
+    AMR 2 progress: [2, 1, 0, 4]
+    AMR 3 progress: [10]
+  conflicts: none
+  waypoints reached: True ({0: True, 1: True, 2: True, 3: True})
+  cost (total path length): 31
+
+
+======================================================================
+SUMMARY
+======================================================================
+
+-- PP --
+  success:         91/100
+  failed:          9/100
+  conflicts found: 11
+  waypoints ok:    91/91
+  avg cost:        21.70
+
+-- CBS --
+  success:         91/100
+  failed:          9/100
+  conflicts found: 11
+  waypoints ok:    91/91
+  avg cost:        21.37
+
+-- BCBS --
+  success:         91/100
+  failed:          9/100
+  conflicts found: 11
+  waypoints ok:    91/91
+  avg cost:        21.37
